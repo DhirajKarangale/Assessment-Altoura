@@ -19,7 +19,8 @@ public class VideoController : MonoBehaviour
 
     private void Start()
     {
-        LoadVideo();
+        AddressablesManager.instance.Load<VideoClip>(assetReference, OnClipLoaded);
+
         DisableControls();
         videoPlayer.loopPointReached += OnVideoEnd;
     }
@@ -82,18 +83,6 @@ public class VideoController : MonoBehaviour
         objControl.SetActive(true);
     }
 
-    private void LoadVideo()
-    {
-        // string path = Application.dataPath + "/Bundles";
-        // AssetBundle assetBundle = AssetBundle.LoadFromFile(path + "/video");
-        // VideoClip clip = assetBundle.LoadAsset<VideoClip>("video");
-        // videoPlayer.clip = clip;
-        // ActiveControls();
-        // Loading.instance.Disable();
-        // assetBundle.Unload(false);
-
-        AddressablesManager.instance.ButtonLoad<VideoClip>(assetReference, OnClipLoaded);
-    }
 
     private void Play()
     {

@@ -4,7 +4,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class AddressablesManager : PersistentSingleton<AddressablesManager>
 {
-    internal void ButtonLoad<T>(AssetReference assetReference, System.Action<T> onLoadedCallback = null)
+    internal void Load<T>(AssetReference assetReference, System.Action<T> onLoadedCallback = null)
     {
         AsyncOperationHandle<T> handle = Addressables.LoadAssetAsync<T>(assetReference);
 
