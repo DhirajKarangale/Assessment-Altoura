@@ -162,8 +162,8 @@ TextureImporter:
       name: CircularOutline
       rect:
         serializedVersion: 2
-        x: 421
-        y: 110
+        x: 303
+        y: 439
         width: 289
         height: 36
       alignment: 0
@@ -180,32 +180,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RectOutline
-      rect:
-        serializedVersion: 2
-        x: 597
-        y: 274
-        width: 123
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e47909e5267976745b5fccbf25eb7afa
-      internalID: -1796658769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Back
       rect:
         serializedVersion: 2
-        x: 348
-        y: 23
+        x: 233
+        y: 431
         width: 36
         height: 60
       alignment: 0
@@ -217,6 +196,153 @@ TextureImporter:
       bones: []
       spriteID: ceff7689fea328a4497c6d2b21f7809d
       internalID: 824334101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 416
+        width: 147
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c7e0594a74ab14b8776dd3037d5ce4
+      internalID: 1333462443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 404
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2714d42de08ca42bb3c7f7d449bce1
+      internalID: 572988102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 400
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9b0e74c96f3db40b868d100e99260e
+      internalID: -663602190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Restart
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 304
+        width: 103
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35331fb015fef1418476620935cb3ce
+      internalID: -637656314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stop
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 306
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff64deedf74ab042881a76270ff1b5a
+      internalID: -263291427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Project2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 0
+        width: 306
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e197c1c7bd41544825473647750859
+      internalID: -1366387644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Project1
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 0
+        width: 306
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd733f1d8d820342b546e26c932278f
+      internalID: -567402597
       vertices: []
       indices: 
       edges: []
@@ -234,10 +360,16 @@ TextureImporter:
     nameFileIdTable:
       Back: 824334101
       CircularOutline: 398746421
+      Eye: -1414675533
       Pass: -2069676919
+      Pause: 572988102
+      Play: -663602190
+      Project1: -567402597
+      Project2: -1366387644
       RectOutline: -1796658769
       RectShade: 172235009
-      UI_0: -1414675533
+      Restart: -637656314
+      Stop: -263291427
       UserName: -2067689394
   spritePackingTag: 
   pSDRemoveMatte: 0

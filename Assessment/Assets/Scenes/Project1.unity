@@ -427,7 +427,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 84d4e7c551b5c1944aecc5e1f83bd6de, type: 3}
+  m_Sprite: {fileID: -263291427, guid: 7a0a7522054469e49ae90403a33af612, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -560,7 +560,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d6003061fe6d67e4187c1a6f8341d30c, type: 3}
+  m_Sprite: {fileID: -663602190, guid: 7a0a7522054469e49ae90403a33af612, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -693,7 +693,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d6003061fe6d67e4187c1a6f8341d30c, type: 3}
+  m_Sprite: {fileID: -663602190, guid: 7a0a7522054469e49ae90403a33af612, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -892,19 +892,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34aa44068bfe2d64b910e878df3ee691, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assetReference:
-    m_AssetGUID: 8fb42273f7a8d664db015f18c706e8a8
-    m_SubObjectName: 
-    m_SubObjectType: 
-    m_EditorAssetChanged: 0
   objControl: {fileID: 106801995}
   slider: {fileID: 1516181456}
   imgPlay1: {fileID: 417535583}
   imgPlay2: {fileID: 379673550}
   videoPlayer: {fileID: 878098428}
-  spritePlay: {fileID: 21300000, guid: d6003061fe6d67e4187c1a6f8341d30c, type: 3}
-  spritePause: {fileID: 21300000, guid: 901a9219ef627184787b788a0445ae9b, type: 3}
-  spriteRestart: {fileID: 21300000, guid: 23e4933af62619a46b63ce3af5da2d1e, type: 3}
+  spritePlay: {fileID: -663602190, guid: 7a0a7522054469e49ae90403a33af612, type: 3}
+  spritePause: {fileID: 572988102, guid: 7a0a7522054469e49ae90403a33af612, type: 3}
+  spriteRestart: {fileID: -637656314, guid: 7a0a7522054469e49ae90403a33af612, type: 3}
 --- !u!1 &887790653
 GameObject:
   m_ObjectHideFlags: 0

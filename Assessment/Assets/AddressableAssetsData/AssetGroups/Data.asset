@@ -18,7 +18,15 @@ MonoBehaviour:
   m_GUID: 282ffc190fb86c146878ec0bed904ba7
   m_SerializeEntries:
   - m_GUID: 8fb42273f7a8d664db015f18c706e8a8
-    m_Address: video
+    m_Address: Assets/Video/Video.mp4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f4cf79ebfcf57844c90f872b3e41a500
+    m_Address: Assets/Prefab/Character.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c9330a4d0d8dc84797699480cf37103
+    m_Address: Assets/Prefab/Environment.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

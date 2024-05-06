@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e7735073406d74480782d029d662d4, type: 3}
+  m_Name: AssetData
+  m_EditorClassIdentifier: 
+  assets:
+  - name: video
+    path: Assets/Video/Video.mp4
+  - name: character
+    path: Assets/Prefab/Character.prefab
+  - name: enviromrnt
+    path: Assets/Prefab/Environment.prefab

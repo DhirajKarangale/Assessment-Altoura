@@ -4,9 +4,12 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class AddressablesManager : PersistentSingleton<AddressablesManager>
 {
-    internal void Load<T>(AssetReference assetReference, System.Action<T> onLoadedCallback = null)
+    [SerializeField] DataAssets dataAssets;
+
+    internal void Load<T>(string assetName, System.Action<T> onLoadedCallback = null)
     {
-        AsyncOperationHandle<T> handle = Addressables.LoadAssetAsync<T>(assetReference);
+        string path = dataAssets.GetPath(assetName);
+        AsyncOperationHandle<T> handle = Addressables.LoadAssetAsync<T>(path);
 
         handle.Completed += (op) =>
         {
@@ -22,4 +25,23 @@ public class AddressablesManager : PersistentSingleton<AddressablesManager>
             }
         };
     }
+
+    // internal void Load<T>(AssetReference assetReference, System.Action<T> onLoadedCallback = null)
+    // {
+    //     AsyncOperationHandle<T> handle = Addressables.LoadAssetAsync<T>(assetReference);
+
+    //     handle.Completed += (op) =>
+    //     {
+    //         if (op.Status == AsyncOperationStatus.Succeeded)
+    //         {
+    //             T loadedAsset = op.Result;
+    //             onLoadedCallback?.Invoke(loadedAsset);
+    //             Addressables.Release(op);
+    //         }
+    //         else
+    //         {
+    //             Debug.LogError("Failed to load asset: " + op.Status);
+    //         }
+    //     };
+    // }
 }
